@@ -54,14 +54,14 @@ h2 {
   line-height: 27px;
 }
 .project-descriptor {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 34px;
   }
   .homepage-intro {
     padding: 80px 20px 5px;
