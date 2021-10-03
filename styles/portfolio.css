@@ -16,15 +16,22 @@ h4 {
 h1 {
   font-size: 86px;
 }
+p {
+  line-height: 30px;
+  font-size: 16px;
+}
+h2 {
+  font-size: 42px;
+}
 .homepage-intro {
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 20px 10px;
   background-color: var(--page-color);
 }
 .homepage-intro h2 {
   font-family: var(--main-font-family);
 }
-.explore-button a {
+.contact-button {
   background-color: var(--branding-color);
   padding: 15px 34px;
   border-radius: 4px;
@@ -32,4 +39,28 @@ h1 {
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
+}
+.site-button {
+  text-align: center;
+}
+.homepage-button {
+  color: var(--branding-color);
+  padding: 15px 34px;
+  border: solid 1px var(--branding-color);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+}
+.project-descriptor {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  .project-descriptor {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+  }
 }
