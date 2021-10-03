@@ -30,6 +30,7 @@ h2 {
 }
 .homepage-intro h2 {
   font-family: var(--main-font-family);
+  font-size: 24px;
 }
 .contact-button {
   background-color: var(--branding-color);
@@ -56,11 +57,17 @@ h2 {
   padding: 120px 60px;
 }
 @media (max-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .homepage-intro {
+    padding: 80px 20px 5px;
+  }
   .project-descriptor {
     padding: 0;
     text-align: center;
-  }
-  h1 {
-    font-size: 44px;
   }
 }
