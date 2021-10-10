@@ -1,7 +1,7 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --main-font-family: "Poppins", sans-serif;
-  --page-color: #ececec;
+  --page-color: #f9f7fe;
   --branding-color: #9fd3c7;
 }
 body {
@@ -27,6 +27,9 @@ h3 {
   font-size: 24px;
   font-family: var(--main-font-family);
 }
+h4 {
+  font-size: 48px;
+}
 img {
   border-radius: 10px;
   background-color: var(--page-color);
@@ -42,6 +45,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: black;
+  transition: all 100ms ease-in-out;
 }
 nav li {
   list-style: none;
@@ -100,6 +104,41 @@ nav li.active a,
 nav a:hover {
   color: var(--branding-color);
 }
+footer {
+  margin: 60px 0;
+}
+footer .work-inquiry-box {
+  background-color: var(--page-color);
+  padding: 40px 100px;
+}
+footer .work-inquiry-box p {
+  margin: 0;
+}
+footer .lets-talk-button {
+  margin-top: 14px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 14px 24px 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--branding-color);
+  background-color: var(--page-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--page-color);
+  background-color: var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -122,5 +161,8 @@ nav a:hover {
   .content-section h1 {
     font-size: 44px;
     line-height: 56px;
+  }
+  footer .email-link {
+    font-size: 18px;
   }
 }
