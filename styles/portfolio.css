@@ -148,7 +148,7 @@ footer .social-links a:hover {
     font-size: 34px;
   }
   .homepage-intro {
-    padding: 80px 20px 5px;
+    padding: 40px 20px 5px;
   }
   .project-descriptor {
     padding: 0;
@@ -159,8 +159,12 @@ footer .social-links a:hover {
     padding: 0;
   }
   .content-section h1 {
-    font-size: 44px;
+    font-size: 42px;
     line-height: 56px;
+  }
+  .content-section h2 {
+    font-size: 28px;
+    line-height: 42px;
   }
   footer .email-link {
     font-size: 18px;
