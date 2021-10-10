@@ -1,7 +1,7 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --main-font-family: "Poppins", sans-serif;
-  --page-color: #f2f2f2;
+  --page-color: #ececec;
   --branding-color: #9fd3c7;
 }
 body {
@@ -30,7 +30,7 @@ h3 {
 img {
   border-radius: 10px;
   background-color: var(--page-color);
-  padding: 20px;
+  padding: 30px;
 }
 .homepage-intro {
   text-align: center;
