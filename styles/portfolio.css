@@ -32,9 +32,27 @@ img {
   background-color: var(--page-color);
   padding: 30px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 34px;
+}
 .homepage-intro {
   text-align: center;
-  padding: 160px 20px 10px;
+  padding: 100px 20px 10px;
   background-color: var(--page-color);
 }
 .homepage-intro h2 {
@@ -74,6 +92,13 @@ img {
 }
 .content-section-information {
   margin: 30px;
+}
+.nav-title {
+  font-size: 24px;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
 }
 @media (max-width: 900px) {
   h1 {
